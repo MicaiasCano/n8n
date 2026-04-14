@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 180,
-    "ingresos": 10462.09,
-    "productos": 550
+    "ventas": 445,
+    "ingresos": 29169.26,
+    "productos": 1212
   },
   "mediosPago": {
     "etiquetas": [
@@ -10,8 +10,8 @@
       "Efectivo"
     ],
     "valores": [
-      56,
-      44
+      61,
+      39
     ]
   },
   "cajas": {
@@ -23,124 +23,128 @@
     ],
     "metricas": [
       {
-        "ventas": 54,
-        "ingresos": 3852.51
+        "ventas": 133,
+        "ingresos": 9526.15
       },
       {
-        "ventas": 55,
-        "ingresos": 3414.14
+        "ventas": 113,
+        "ingresos": 7703.8
       },
       {
-        "ventas": 47,
-        "ingresos": 3519.57
+        "ventas": 99,
+        "ingresos": 7006.92
       },
       {
-        "ventas": 38,
-        "ingresos": 2556.25
+        "ventas": 105,
+        "ingresos": 7447.68
       }
     ],
     "graficos": {
       "ventas": [
-        54,
-        55,
-        47,
-        38
+        133,
+        113,
+        99,
+        105
       ],
       "productos": [
-        111,
-        146,
-        148,
-        127
+        286,
+        322,
+        320,
+        322
       ],
       "ingresos": [
-        3852.51,
-        3414.14,
-        3519.57,
-        2556.25
+        9526.15,
+        7703.8,
+        7006.92,
+        7447.68
       ]
     }
   },
   "productos": {
     "destacado": {
-      "nombre": "Gaseosa Cola 1.5L",
-      "cantidad": 435
+      "nombre": "Jabón en Polvo 3kg",
+      "cantidad": 724
     },
     "listaCompleta": [
       {
-        "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 435
-      },
-      {
         "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 369
+        "cantidad": 724
       },
       {
-        "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 339
-      },
-      {
-        "nombre": "Fideos Tallarines",
-        "cantidad": 294
-      },
-      {
-        "nombre": "Atún en lata",
-        "cantidad": 250
-      },
-      {
-        "nombre": "Pan Integral",
-        "cantidad": 219
-      },
-      {
-        "nombre": "Galletitas Dulces",
-        "cantidad": 162
+        "nombre": "Gaseosa Cola 1.5L",
+        "cantidad": 689
       },
       {
         "nombre": "Arroz Blanco 1kg",
-        "cantidad": 139
+        "cantidad": 599
       },
       {
         "nombre": "Papel Higiénico 4u",
-        "cantidad": 127
+        "cantidad": 558
+      },
+      {
+        "nombre": "Atún en lata",
+        "cantidad": 454
+      },
+      {
+        "nombre": "Cerveza Rubia 473ml",
+        "cantidad": 378
+      },
+      {
+        "nombre": "Fideos Tallarines",
+        "cantidad": 347
+      },
+      {
+        "nombre": "Pan Integral",
+        "cantidad": 288
       },
       {
         "nombre": "Yerba Mate 500g",
-        "cantidad": 107
-      },
-      {
-        "nombre": "Leche Entera 1L",
-        "cantidad": 91
+        "cantidad": 277
       },
       {
         "nombre": "Queso Crema",
-        "cantidad": 83
+        "cantidad": 272
+      },
+      {
+        "nombre": "Galletitas Dulces",
+        "cantidad": 254
+      },
+      {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 226
       },
       {
         "nombre": "Dentífrico",
-        "cantidad": 76
+        "cantidad": 187
       },
       {
         "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 55
+        "cantidad": 136
       }
     ]
   },
   "resumenMes": {
-    "ventas": 180,
-    "ingresos": 10462.09,
-    "productos": 550
+    "ventas": 445,
+    "ingresos": 29169.26,
+    "productos": 1212
   },
   "mes": {
     "categorias": [
-      "01/01"
+      "01/01",
+      "02/01"
     ],
     "ingresos": [
-      10462.09
+      10462.09,
+      18707.17
     ],
     "productos": [
-      550
+      550,
+      662
     ],
     "ventas": [
-      180
+      180,
+      265
     ]
   }
 }
