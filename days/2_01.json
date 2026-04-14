@@ -1,0 +1,177 @@
+{
+  "resumenDia": {
+    "ventas": 265,
+    "ingresos": 18707.17,
+    "productos": 662
+  },
+  "graficoEvolucion": {
+    "categorias": [
+      "00:00",
+      "03:00",
+      "06:00",
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00",
+      "21:00",
+      "23:59"
+    ],
+    "ingresos": [
+      987.99,
+      253.44,
+      187.62,
+      2613.92,
+      5626.16,
+      2762.44,
+      4851.91,
+      6738.4,
+      3125.75
+    ],
+    "productos": [
+      45,
+      8,
+      9,
+      141,
+      295,
+      143,
+      258,
+      432,
+      180
+    ],
+    "ventas": [
+      16,
+      4,
+      3,
+      41,
+      80,
+      41,
+      76,
+      122,
+      51
+    ]
+  },
+  "totalesPeriodo": {
+    "ventas": 1341,
+    "ingresos": 67599.94
+  },
+  "mediosPago": {
+    "etiquetas": [
+      "Posnet (Tarjeta/QR)",
+      "Efectivo"
+    ],
+    "valores": [
+      63,
+      34
+    ]
+  },
+  "cajas": {
+    "nombres": [
+      "Caja 1",
+      "Caja 2",
+      "Caja 3",
+      "Caja 4"
+    ],
+    "metricas": [
+      {
+        "ventas": 79,
+        "ingresos": 5673.64
+      },
+      {
+        "ventas": 58,
+        "ingresos": 4289.66
+      },
+      {
+        "ventas": 52,
+        "ingresos": 3487.35
+      },
+      {
+        "ventas": 67,
+        "ingresos": 4891.43
+      }
+    ],
+    "graficos": {
+      "ventas": [
+        79,
+        58,
+        52,
+        67
+      ],
+      "productos": [
+        175,
+        176,
+        172,
+        195
+      ],
+      "ingresos": [
+        5673.64,
+        4289.66,
+        3487.35,
+        4891.43
+      ]
+    }
+  },
+  "productos": {
+    "destacado": {
+      "nombre": "Arroz Blanco 1kg",
+      "cantidad": 460
+    },
+    "listaCompleta": [
+      {
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 460
+      },
+      {
+        "nombre": "Papel Higiénico 4u",
+        "cantidad": 431
+      },
+      {
+        "nombre": "Jabón en Polvo 3kg",
+        "cantidad": 355
+      },
+      {
+        "nombre": "Gaseosa Cola 1.5L",
+        "cantidad": 254
+      },
+      {
+        "nombre": "Atún en lata",
+        "cantidad": 204
+      },
+      {
+        "nombre": "Queso Crema",
+        "cantidad": 189
+      },
+      {
+        "nombre": "Yerba Mate 500g",
+        "cantidad": 170
+      },
+      {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 135
+      },
+      {
+        "nombre": "Dentífrico",
+        "cantidad": 111
+      },
+      {
+        "nombre": "Galletitas Dulces",
+        "cantidad": 92
+      },
+      {
+        "nombre": "Aceite de Girasol 1.5L",
+        "cantidad": 81
+      },
+      {
+        "nombre": "Pan Integral",
+        "cantidad": 69
+      },
+      {
+        "nombre": "Fideos Tallarines",
+        "cantidad": 53
+      },
+      {
+        "nombre": "Cerveza Rubia 473ml",
+        "cantidad": 39
+      }
+    ]
+  }
+}

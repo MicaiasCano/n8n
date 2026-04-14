@@ -1,0 +1,262 @@
+{
+  "totalesPeriodo": {
+    "ventas": 6275,
+    "ingresos": 409264.04,
+    "productos": 16668
+  },
+  "mediosPago": {
+    "etiquetas": [
+      "Posnet (Tarjeta/QR)",
+      "Efectivo"
+    ],
+    "valores": [
+      57,
+      43
+    ]
+  },
+  "cajas": {
+    "nombres": [
+      "Caja 1",
+      "Caja 2",
+      "Caja 3",
+      "Caja 4"
+    ],
+    "metricas": [
+      {
+        "ventas": 1601,
+        "ingresos": 106244.7
+      },
+      {
+        "ventas": 1579,
+        "ingresos": 102587.48
+      },
+      {
+        "ventas": 1591,
+        "ingresos": 103293.95
+      },
+      {
+        "ventas": 1580,
+        "ingresos": 100582.8
+      }
+    ],
+    "graficos": {
+      "ventas": [
+        1601,
+        1579,
+        1591,
+        1580
+      ],
+      "productos": [
+        4349,
+        4259,
+        4234,
+        4572
+      ],
+      "ingresos": [
+        106244.7,
+        102587.48,
+        103293.95,
+        100582.8
+      ]
+    }
+  },
+  "productos": {
+    "destacado": {
+      "nombre": "Atún en lata",
+      "cantidad": 6737
+    },
+    "listaCompleta": [
+      {
+        "nombre": "Atún en lata",
+        "cantidad": 6737
+      },
+      {
+        "nombre": "Aceite de Girasol 1.5L",
+        "cantidad": 6083
+      },
+      {
+        "nombre": "Galletitas Dulces",
+        "cantidad": 5702
+      },
+      {
+        "nombre": "Fideos Tallarines",
+        "cantidad": 5564
+      },
+      {
+        "nombre": "Queso Crema",
+        "cantidad": 5291
+      },
+      {
+        "nombre": "Jabón en Polvo 3kg",
+        "cantidad": 5206
+      },
+      {
+        "nombre": "Cerveza Rubia 473ml",
+        "cantidad": 5002
+      },
+      {
+        "nombre": "Papel Higiénico 4u",
+        "cantidad": 4769
+      },
+      {
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 4675
+      },
+      {
+        "nombre": "Pan Integral",
+        "cantidad": 4385
+      },
+      {
+        "nombre": "Gaseosa Cola 1.5L",
+        "cantidad": 4195
+      },
+      {
+        "nombre": "Dentífrico",
+        "cantidad": 4062
+      },
+      {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 4003
+      },
+      {
+        "nombre": "Yerba Mate 500g",
+        "cantidad": 3426
+      }
+    ]
+  },
+  "resumenMes": {
+    "ventas": 6275,
+    "ingresos": 409264.04,
+    "productos": 16668
+  },
+  "mes": {
+    "categorias": [
+      "02/01",
+      "03/01",
+      "04/01",
+      "05/01",
+      "06/01",
+      "07/01",
+      "08/01",
+      "09/01",
+      "10/01",
+      "11/01",
+      "12/01",
+      "13/01",
+      "14/01",
+      "15/01",
+      "16/01",
+      "17/01",
+      "18/01",
+      "19/01",
+      "20/01",
+      "21/01",
+      "22/01",
+      "23/01",
+      "24/01",
+      "25/01",
+      "26/01",
+      "27/01",
+      "28/01",
+      "29/01",
+      "30/01",
+      "31/01"
+    ],
+    "ingresos": [
+      18707.17,
+      17678.95,
+      8926.09,
+      17422.4,
+      15514.65,
+      20186.23,
+      8621.75,
+      13641.45,
+      18644.18,
+      20103.58,
+      12903.04,
+      15491.1,
+      14877.7,
+      8746.17,
+      17782.0,
+      11035.51,
+      10136.0,
+      13893.94,
+      14106.88,
+      12089.21,
+      10556.35,
+      18020.69,
+      10934.93,
+      11820.41,
+      13907.16,
+      8023.32,
+      11023.3,
+      11115.46,
+      13418.35,
+      9936.07
+    ],
+    "productos": [
+      662,
+      680,
+      321,
+      720,
+      771,
+      882,
+      294,
+      634,
+      731,
+      872,
+      443,
+      749,
+      495,
+      412,
+      891,
+      385,
+      475,
+      520,
+      436,
+      397,
+      361,
+      773,
+      376,
+      448,
+      497,
+      366,
+      544,
+      647,
+      475,
+      411
+    ],
+    "ventas": [
+      265,
+      242,
+      129,
+      242,
+      255,
+      270,
+      125,
+      201,
+      276,
+      292,
+      197,
+      265,
+      215,
+      153,
+      287,
+      154,
+      159,
+      247,
+      197,
+      179,
+      142,
+      249,
+      177,
+      207,
+      241,
+      140,
+      172,
+      199,
+      224,
+      174
+    ]
+  }
+}

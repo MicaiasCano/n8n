@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pantalla Completa - 7 Días</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="sticky-header">
+        <h2 style="font-size: 20px;">Mi Negocio Dashboard</h2>
+        <div class="time-filters">
+            <a href="index_day.html"><button>Día</button></a>
+            <a href=""><button class="active">7 Días</button></a>
+            <a href="index_month.html"><button>Mes</button></a>
+        </div>
+    </header>
+
+    <section class="full-page-section" id="seccion-1">
+        <h2 class="section-title">Resumen del Periodo</h2>
+        <div class="grid-3">
+            <div class="card">
+                <span class="value-title">Ventas de la Semana</span>
+                <span class="value-large" id="txt-ventas-semana">-</span>
+            </div>
+            <div class="card">
+                <span class="value-title">Ingresos de la Semana</span>
+                <span class="value-large" id="txt-ingresos-semana" style="color: var(--green);">-</span>
+            </div>
+            <div class="card">
+                <span class="value-title">Productos de la Semana</span>
+                <span class="value-large" id="txt-productos-semana" style="color: var(--orange);">-</span>
+            </div>
+        </div>
+            <div class="card card-stretch">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <span class="value-title" id="titulo-grafico-evolucion">Evolución: Resumen General (7 Días)</span>
+                    <select class="custom-select" id="filtro-evolucion">
+                        <option value="todos">Vista General</option>
+                        <option value="ingresos">Ingresos</option>
+                        <option value="productos">Productos Vendidos</option>
+                        <option value="ventas">Ventas (Tickets)</option>
+                    </select>
+                </div>
+                <div id="chart-s1" style="height: 100%; min-height: 350px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-page-section" id="seccion-2">
+        <h2 class="section-title">Análisis Financiero y Medios de Pago</h2>
+        <div class="grid-2" style="flex: 1;">
+            <div style="display: flex; flex-direction: column; gap: 24px;">
+                <div class="card" style="flex: 1; justify-content: center; align-items: center; text-align: center;">
+                    <span class="value-title">Ventas Totales (Periodo)</span>
+                    <span class="value-large" id="txt-ventas-totales" style="font-size: 48px;">-</span>
+                </div>
+                <div class="card" style="flex: 1; justify-content: center; align-items: center; text-align: center;">
+                    <span class="value-title">Ingresos Totales (Periodo)</span>
+                    <span class="value-large" id="txt-ingresos-totales" style="font-size: 48px; color: var(--green);">-</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="value-title" style="text-align: center; margin-bottom: 20px;">Medios de Pago</span>
+                <div id="chart-s2" style="display: flex; justify-content: center; align-items: center; height: 100%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-page-section" id="seccion-3">
+        <h2 class="section-title">Rendimiento por Cajas</h2>
+        <div class="card card-stretch">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <span class="value-title">Métricas por Caja</span>
+                <select class="custom-select" id="filtro-cajas">
+                    <option value="ventas">Ventas Totales</option>
+                    <option value="productos">Productos Vendidos</option>
+                    <option value="ingresos">Ingresos Totales</option>
+                </select>
+            </div>
+            <div id="chart-s3" style="height: 100%; min-height: 300px;"></div>
+        </div>
+        <div class="grid-4" id="contenedor-cajas"></div>
+    </section>
+
+    <section class="full-page-section" id="seccion-4" style="border-bottom: none;">
+        <h2 class="section-title">Análisis de Productos</h2>
+        <div class="card" style="background: linear-gradient(135deg, var(--blue), var(--purple)); color: white;">
+            <span class="value-title" style="color: rgba(255,255,255,0.8);">Producto Más Vendido 🔥</span>
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <span class="value-large" id="txt-destacado-nombre">-</span>
+                <span style="font-size: 24px; font-weight: bold;" id="txt-destacado-cant">-</span>
+            </div>
+        </div>
+
+        <div class="grid-2 card-stretch">
+            <div class="card">
+                <span class="value-title" style="margin-bottom: 16px;">Lista Completa de Productos</span>
+                <ul class="product-list" id="lista-productos"></ul>
+            </div>
+            <div class="card">
+                <span class="value-title" style="text-align: center; margin-bottom: 20px;">Top 10 Productos Vendidos</span>
+                <div id="chart-s4" style="display: flex; justify-content: center; align-items: center; height: 100%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        /* =========================================================
+           FUNCIONES DE RENDERIZADO DOM Y GRÁFICOS
+        ========================================================= */
+        
+        const formatMoney = (amount) => {
+            return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(amount);
+        };
+
+        function inicializarDashboard(data) {
+            
+            // --- CAMBIO AQUÍ: Usamos data.resumenSemana en lugar de data.resumenDia ---
+            document.getElementById('txt-ventas-semana').innerText = data.resumenSemana.ventas.toLocaleString();
+            document.getElementById('txt-ingresos-semana').innerText = formatMoney(data.resumenSemana.ingresos);
+            document.getElementById('txt-productos-semana').innerText = data.resumenSemana.productos.toLocaleString();
+            
+            document.getElementById('txt-ventas-totales').innerText = data.totalesPeriodo.ventas.toLocaleString();
+            document.getElementById('txt-ingresos-totales').innerText = formatMoney(data.totalesPeriodo.ingresos);
+            
+            document.getElementById('txt-destacado-nombre').innerText = data.productos.destacado.nombre;
+            document.getElementById('txt-destacado-cant').innerText = `${data.productos.destacado.cantidad.toLocaleString()} uds.`;
+
+            // --- Generar Tarjetas de Cajas Dinámicamente ---
+            const contenedorCajas = document.getElementById('contenedor-cajas');
+            contenedorCajas.innerHTML = ''; 
+            data.cajas.nombres.forEach((nombreCaja, index) => {
+                const metricas = data.cajas.metricas[index];
+                const cajaHTML = `
+                    <div class="card">
+                        <span class="value-title" style="color: var(--blue)">${nombreCaja}</span>
+                        <div style="margin-top: 12px;">
+                            <div><span class="value-title">Ventas:</span> <strong>${metricas.ventas.toLocaleString()}</strong></div>
+                            <div style="margin-top: 4px;"><span class="value-title">Ingresos:</span> <strong style="color: var(--green)">${formatMoney(metricas.ingresos)}</strong></div>
+                        </div>
+                    </div>
+                `;
+                contenedorCajas.innerHTML += cajaHTML;
+            });
+
+            // --- Generar Lista de Productos ---
+            const listaProductos = document.getElementById('lista-productos');
+            listaProductos.innerHTML = '';
+            data.productos.listaCompleta.forEach((prod, index) => {
+                listaProductos.innerHTML += `<li><span>${index + 1}. ${prod.nombre}</span> <span class="qty">${prod.cantidad.toLocaleString()}</span></li>`;
+            });
+
+            const commonOptions = { chart: { width: '100%', height: '100%', parentHeightOffset: 0, toolbar: { show: false } } };
+
+            // --- CAMBIO AQUÍ: Usamos data.semana en lugar de data.graficoEvolucion ---
+            const chartS1 = new ApexCharts(document.querySelector("#chart-s1"), {
+                ...commonOptions,
+                series: [
+                    { name: 'Ingresos ($)', type: 'line', data: data.semana.ingresos },
+                    { name: 'Productos Vendidos', type: 'line', data: data.semana.productos },
+                    { name: 'Ventas (Tickets)', type: 'line', data: data.semana.ventas }
+                ],
+                chart: { type: 'line', height: '100%', toolbar: { show: false } },
+                stroke: { curve: 'smooth', width: 3 },
+                colors: ['#38a169', '#dd6b20', '#3182ce'],
+                xaxis: { categories: data.semana.categorias },
+                yaxis: [ 
+                    { title: { text: 'Ingresos ($)' } }, 
+                    { opposite: true, title: { text: 'Cantidades' } } 
+                ],
+                grid: { borderColor: '#e2e8f0' }
+            });
+            chartS1.render();
+
+            // --- Lógica de filtrado para la Sección 1 (Actualizado a data.semana) ---
+            document.getElementById('filtro-evolucion').addEventListener('change', function(e) {
+                const val = e.target.value;
+                const titulo = document.getElementById('titulo-grafico-evolucion');
+                
+                if (val === 'todos') {
+                    titulo.innerText = "Evolución: Resumen General (7 Días)";
+                    chartS1.updateSeries([
+                        { name: 'Ingresos ($)', data: data.semana.ingresos },
+                        { name: 'Productos Vendidos', data: data.semana.productos },
+                        { name: 'Ventas (Tickets)', data: data.semana.ventas }
+                    ]);
+                } else if (val === 'ingresos') {
+                    titulo.innerText = "Evolución: Ingresos Totales (7 Días)";
+                    chartS1.updateSeries([{ name: 'Ingresos ($)', data: data.semana.ingresos }]);
+                } else if (val === 'productos') {
+                    titulo.innerText = "Evolución: Productos Vendidos (7 Días)";
+                    chartS1.updateSeries([{ name: 'Productos Vendidos', data: data.semana.productos }]);
+                } else if (val === 'ventas') {
+                    titulo.innerText = "Evolución: Ventas Totales (7 Días)";
+                    chartS1.updateSeries([{ name: 'Ventas (Tickets)', data: data.semana.ventas }]);
+                }
+            });
+
+            // --- Gráfico 2: Dona Medios de Pago ---
+            new ApexCharts(document.querySelector("#chart-s2"), {
+                ...commonOptions,
+                series: data.mediosPago.valores,
+                chart: { type: 'donut', height: '100%' },
+                labels: data.mediosPago.etiquetas,
+                colors: ['#3182ce', '#38a169'],
+                plotOptions: { pie: { donut: { size: '70%', labels: { show: true, total: { show: true, label: 'Total', formatter: () => '100%' } } } } },
+                dataLabels: { enabled: true },
+                legend: { position: 'bottom' }
+            }).render();
+
+            // --- Gráfico 3: Barras Cajas ---
+            const chartCajas = new ApexCharts(document.querySelector("#chart-s3"), {
+                ...commonOptions,
+                series: [{ name: 'Ventas Totales', data: data.cajas.graficos.ventas }],
+                chart: { type: 'bar', height: '100%', toolbar: { show: false } },
+                colors: ['#805ad5'],
+                plotOptions: { bar: { borderRadius: 4, columnWidth: '40%', distributed: true } },
+                xaxis: { categories: data.cajas.nombres },
+                legend: { show: false }
+            });
+            chartCajas.render();
+
+            // Interacción del select de cajas
+            document.getElementById('filtro-cajas').addEventListener('change', function(e) {
+                let newData = []; let newColor = ''; let newName = '';
+                if(e.target.value === 'ventas') {
+                    newData = data.cajas.graficos.ventas; newColor = '#805ad5'; newName = 'Ventas Totales';
+                } else if (e.target.value === 'productos') {
+                    newData = data.cajas.graficos.productos; newColor = '#dd6b20'; newName = 'Productos Vendidos';
+                } else if (e.target.value === 'ingresos') {
+                    newData = data.cajas.graficos.ingresos; newColor = '#38a169'; newName = 'Ingresos Totales ($)';
+                }
+                chartCajas.updateSeries([{ name: newName, data: newData }]);
+                chartCajas.updateOptions({ colors: [newColor] });
+            });
+
+            // --- Gráfico 4: Dona Top 10 Productos ---
+            const top10Nombres = data.productos.listaCompleta.slice(0, 10).map(p => p.nombre.split(" ")[0]); 
+            const top10Cantidades = data.productos.listaCompleta.slice(0, 10).map(p => p.cantidad);
+
+            new ApexCharts(document.querySelector("#chart-s4"), {
+                ...commonOptions,
+                series: top10Cantidades,
+                chart: { type: 'donut', height: '100%' },
+                labels: top10Nombres,
+                plotOptions: { pie: { donut: { size: '65%' } } },
+                dataLabels: { enabled: false },
+                legend: { position: 'right', fontSize: '13px' }
+            }).render();
+        }
+
+        /* =========================================================
+           ARRANQUE DE LA APLICACIÓN
+        ========================================================= */
+        fetch('datos_7_day.json')
+            .then(response => response.json())
+            .then(data => {
+                inicializarDashboard(data);
+            })
+            .catch(error => console.error("Error cargando los datos:", error));
+
+    </script>
+</body>
+</html>
