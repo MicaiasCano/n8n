@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 6190,
-    "ingresos": 404235.03,
-    "productos": 16469
+    "ventas": 180,
+    "ingresos": 10462.09,
+    "productos": 550
   },
   "mediosPago": {
     "etiquetas": [
@@ -10,8 +10,8 @@
       "Efectivo"
     ],
     "valores": [
-      57,
-      43
+      56,
+      44
     ]
   },
   "cajas": {
@@ -23,240 +23,124 @@
     ],
     "metricas": [
       {
-        "ventas": 1594,
-        "ingresos": 105558.95
+        "ventas": 54,
+        "ingresos": 3852.51
       },
       {
-        "ventas": 1556,
-        "ingresos": 100255.72
+        "ventas": 55,
+        "ingresos": 3414.14
       },
       {
-        "ventas": 1552,
-        "ingresos": 101014.23
+        "ventas": 47,
+        "ingresos": 3519.57
       },
       {
-        "ventas": 1577,
-        "ingresos": 100349.55
+        "ventas": 38,
+        "ingresos": 2556.25
       }
     ],
     "graficos": {
       "ventas": [
-        1594,
-        1556,
-        1552,
-        1577
+        54,
+        55,
+        47,
+        38
       ],
       "productos": [
-        4308,
-        4148,
-        4181,
-        4563
+        111,
+        146,
+        148,
+        127
       ],
       "ingresos": [
-        105558.95,
-        100255.72,
-        101014.23,
-        100349.55
+        3852.51,
+        3414.14,
+        3519.57,
+        2556.25
       ]
     }
   },
   "productos": {
     "destacado": {
-      "nombre": "Atún en lata",
-      "cantidad": 6743
+      "nombre": "Gaseosa Cola 1.5L",
+      "cantidad": 435
     },
     "listaCompleta": [
       {
-        "nombre": "Atún en lata",
-        "cantidad": 6743
-      },
-      {
-        "nombre": "Galletitas Dulces",
-        "cantidad": 5810
-      },
-      {
-        "nombre": "Fideos Tallarines",
-        "cantidad": 5767
-      },
-      {
-        "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 5660
-      },
-      {
-        "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 5263
-      },
-      {
-        "nombre": "Queso Crema",
-        "cantidad": 5217
+        "nombre": "Gaseosa Cola 1.5L",
+        "cantidad": 435
       },
       {
         "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 5183
+        "cantidad": 369
       },
       {
-        "nombre": "Papel Higiénico 4u",
-        "cantidad": 4855
+        "nombre": "Cerveza Rubia 473ml",
+        "cantidad": 339
       },
       {
-        "nombre": "Arroz Blanco 1kg",
-        "cantidad": 4693
+        "nombre": "Fideos Tallarines",
+        "cantidad": 294
+      },
+      {
+        "nombre": "Atún en lata",
+        "cantidad": 250
       },
       {
         "nombre": "Pan Integral",
-        "cantidad": 4474
+        "cantidad": 219
       },
       {
-        "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 4454
+        "nombre": "Galletitas Dulces",
+        "cantidad": 162
       },
       {
-        "nombre": "Leche Entera 1L",
-        "cantidad": 4024
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 139
       },
       {
-        "nombre": "Dentífrico",
-        "cantidad": 3831
+        "nombre": "Papel Higiénico 4u",
+        "cantidad": 127
       },
       {
         "nombre": "Yerba Mate 500g",
-        "cantidad": 3246
+        "cantidad": 107
+      },
+      {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 91
+      },
+      {
+        "nombre": "Queso Crema",
+        "cantidad": 83
+      },
+      {
+        "nombre": "Dentífrico",
+        "cantidad": 76
+      },
+      {
+        "nombre": "Aceite de Girasol 1.5L",
+        "cantidad": 55
       }
     ]
   },
   "resumenMes": {
-    "ventas": 6190,
-    "ingresos": 404235.03,
-    "productos": 16469
+    "ventas": 180,
+    "ingresos": 10462.09,
+    "productos": 550
   },
   "mes": {
     "categorias": [
-      "01/01",
-      "02/01",
-      "03/01",
-      "04/01",
-      "05/01",
-      "06/01",
-      "07/01",
-      "08/01",
-      "09/01",
-      "10/01",
-      "11/01",
-      "12/01",
-      "14/01",
-      "15/01",
-      "16/01",
-      "17/01",
-      "18/01",
-      "19/01",
-      "20/01",
-      "21/01",
-      "22/01",
-      "23/01",
-      "24/01",
-      "25/01",
-      "26/01",
-      "27/01",
-      "28/01",
-      "29/01",
-      "30/01",
-      "31/01"
+      "01/01"
     ],
     "ingresos": [
-      10462.09,
-      18707.17,
-      17678.95,
-      8926.09,
-      17422.4,
-      15514.65,
-      20186.23,
-      8621.75,
-      13641.45,
-      18644.18,
-      20103.58,
-      12903.04,
-      14877.7,
-      8746.17,
-      17782.0,
-      11035.51,
-      10136.0,
-      13893.94,
-      14106.88,
-      12089.21,
-      10556.35,
-      18020.69,
-      10934.93,
-      11820.41,
-      13907.16,
-      8023.32,
-      11023.3,
-      11115.46,
-      13418.35,
-      9936.07
+      10462.09
     ],
     "productos": [
-      550,
-      662,
-      680,
-      321,
-      720,
-      771,
-      882,
-      294,
-      634,
-      731,
-      872,
-      443,
-      495,
-      412,
-      891,
-      385,
-      475,
-      520,
-      436,
-      397,
-      361,
-      773,
-      376,
-      448,
-      497,
-      366,
-      544,
-      647,
-      475,
-      411
+      550
     ],
     "ventas": [
-      180,
-      265,
-      242,
-      129,
-      242,
-      255,
-      270,
-      125,
-      201,
-      276,
-      292,
-      197,
-      215,
-      153,
-      287,
-      154,
-      159,
-      247,
-      197,
-      179,
-      142,
-      249,
-      177,
-      207,
-      241,
-      140,
-      172,
-      199,
-      224,
-      174
+      180
     ]
   }
 }
