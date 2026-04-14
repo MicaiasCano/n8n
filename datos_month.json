@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 6275,
-    "ingresos": 409264.04,
-    "productos": 16668
+    "ventas": 6164,
+    "ingresos": 404808.45,
+    "productos": 16304
   },
   "mediosPago": {
     "etiquetas": [
@@ -23,111 +23,131 @@
     ],
     "metricas": [
       {
-        "ventas": 1601,
-        "ingresos": 106244.7
+        "ventas": 1577,
+        "ingresos": 104010.36
       },
       {
-        "ventas": 1579,
-        "ingresos": 102587.48
+        "ventas": 1547,
+        "ingresos": 99851.92
       },
       {
-        "ventas": 1591,
-        "ingresos": 103293.95
+        "ventas": 1528,
+        "ingresos": 98857.68
       },
       {
         "ventas": 1580,
-        "ingresos": 100582.8
+        "ingresos": 100578.12
       }
     ],
     "graficos": {
       "ventas": [
-        1601,
-        1579,
-        1591,
+        1577,
+        1547,
+        1528,
         1580
       ],
       "productos": [
-        4349,
-        4259,
-        4234,
-        4572
+        4295,
+        4160,
+        4083,
+        4567
       ],
       "ingresos": [
-        106244.7,
-        102587.48,
-        103293.95,
-        100582.8
+        104010.36,
+        99851.92,
+        98857.68,
+        100578.12
       ]
     }
   },
   "productos": {
     "destacado": {
       "nombre": "Atún en lata",
-      "cantidad": 6737
+      "cantidad": 6907
     },
     "listaCompleta": [
       {
         "nombre": "Atún en lata",
-        "cantidad": 6737
-      },
-      {
-        "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 6083
+        "cantidad": 6907
       },
       {
         "nombre": "Galletitas Dulces",
-        "cantidad": 5702
+        "cantidad": 5991
       },
       {
         "nombre": "Fideos Tallarines",
-        "cantidad": 5564
+        "cantidad": 5708
+      },
+      {
+        "nombre": "Aceite de Girasol 1.5L",
+        "cantidad": 5605
       },
       {
         "nombre": "Queso Crema",
-        "cantidad": 5291
-      },
-      {
-        "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 5206
+        "cantidad": 5332
       },
       {
         "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 5002
+        "cantidad": 4924
+      },
+      {
+        "nombre": "Jabón en Polvo 3kg",
+        "cantidad": 4814
       },
       {
         "nombre": "Papel Higiénico 4u",
-        "cantidad": 4769
+        "cantidad": 4728
       },
       {
         "nombre": "Arroz Blanco 1kg",
-        "cantidad": 4675
+        "cantidad": 4609
       },
       {
         "nombre": "Pan Integral",
-        "cantidad": 4385
+        "cantidad": 4324
       },
       {
         "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 4195
-      },
-      {
-        "nombre": "Dentífrico",
-        "cantidad": 4062
+        "cantidad": 4019
       },
       {
         "nombre": "Leche Entera 1L",
-        "cantidad": 4003
+        "cantidad": 3997
+      },
+      {
+        "nombre": "Dentífrico",
+        "cantidad": 3833
       },
       {
         "nombre": "Yerba Mate 500g",
-        "cantidad": 3426
+        "cantidad": 3278
+      },
+      {
+        "nombre": "Aceite de Girasol",
+        "cantidad": 317
+      },
+      {
+        "nombre": "Jabón en Polvo",
+        "cantidad": 261
+      },
+      {
+        "nombre": "Cerveza Rubia",
+        "cantidad": 216
+      },
+      {
+        "nombre": "Gaseosa Cola 1.",
+        "cantidad": 118
+      },
+      {
+        "nombre": "Papel Higiénico",
+        "cantidad": 90
       }
     ]
   },
   "resumenMes": {
-    "ventas": 6275,
-    "ingresos": 409264.04,
-    "productos": 16668
+    "ventas": 6164,
+    "ingresos": 404808.45,
+    "productos": 16304
   },
   "mes": {
     "categorias": [
@@ -142,7 +162,6 @@
       "10/01",
       "11/01",
       "12/01",
-      "13/01",
       "14/01",
       "15/01",
       "16/01",
@@ -160,7 +179,8 @@
       "28/01",
       "29/01",
       "30/01",
-      "31/01"
+      "31/01",
+      "14/04"
     ],
     "ingresos": [
       18707.17,
@@ -174,7 +194,6 @@
       18644.18,
       20103.58,
       12903.04,
-      15491.1,
       14877.7,
       8746.17,
       17782.0,
@@ -192,7 +211,8 @@
       11023.3,
       11115.46,
       13418.35,
-      9936.07
+      9936.07,
+      11035.51
     ],
     "productos": [
       662,
@@ -206,7 +226,6 @@
       731,
       872,
       443,
-      749,
       495,
       412,
       891,
@@ -224,7 +243,8 @@
       544,
       647,
       475,
-      411
+      411,
+      385
     ],
     "ventas": [
       265,
@@ -238,7 +258,6 @@
       276,
       292,
       197,
-      265,
       215,
       153,
       287,
@@ -256,7 +275,8 @@
       172,
       199,
       224,
-      174
+      174,
+      154
     ]
   }
 }
