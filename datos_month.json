@@ -116,7 +116,7 @@
       },
       {
         "nombre": "Dentífrico",
-        "cantidad": 3755
+        "cantidad": 3833
       },
       {
         "nombre": "Yerba Mate 500g",
@@ -131,7 +131,7 @@
         "cantidad": 261
       },
       {
-        "nombre": "Cerveza Rubia 4",
+        "nombre": "Cerveza Rubia",
         "cantidad": 216
       },
       {
@@ -139,12 +139,8 @@
         "cantidad": 118
       },
       {
-        "nombre": "Papel Higiénico <",
+        "nombre": "Papel Higiénico",
         "cantidad": 90
-      },
-      {
-        "nombre": "Dentífico",
-        "cantidad": 78
       }
     ]
   },

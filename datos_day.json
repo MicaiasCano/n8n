@@ -27,22 +27,18 @@
     ],
     "metricas": [
       {
-        "nombre": "Caja 1",
         "ventas": 37,
         "ingresos": 2303.92
       },
       {
-        "nombre": "Caja 2",
         "ventas": 46,
         "ingresos": 3010.34
       },
       {
-        "nombre": "Caja 3",
         "ventas": 23,
         "ingresos": 1363.02
       },
       {
-        "nombre": "Caja 4",
         "ventas": 41,
         "ingresos": 2784.82
       }
@@ -70,10 +66,14 @@
   },
   "productos": {
     "destacado": {
-      "nombre": "Galletitas Dulces",
-      "cantidad": 343
+      "nombre": "Atún en lata",
+      "cantidad": 414
     },
     "listaCompleta": [
+      {
+        "nombre": "Atún en lata",
+        "cantidad": 414
+      },
       {
         "nombre": "Galletitas Dulces",
         "cantidad": 343
@@ -91,7 +91,7 @@
         "cantidad": 235
       },
       {
-        "nombre": "Cerveza Rubia 4",
+        "nombre": "Cerveza Rubia",
         "cantidad": 216
       },
       {
@@ -107,11 +107,11 @@
         "cantidad": 118
       },
       {
-        "nombre": "Papel Higiénico <",
+        "nombre": "Papel Higiénico",
         "cantidad": 90
       },
       {
-        "nombre": "Dentífico",
+        "nombre": "Dentífrico",
         "cantidad": 78
       },
       {
@@ -125,10 +125,6 @@
       {
         "nombre": "Arroz Blanco 1kg",
         "cantidad": 55
-      },
-      {
-        "nombre": "Atún en lata",
-        "cantidad": 414
       }
     ]
   }

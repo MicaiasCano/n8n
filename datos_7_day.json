@@ -111,12 +111,12 @@
         "cantidad": 847
       },
       {
-        "nombre": "Galletitas Dulces",
-        "cantidad": 701
+        "nombre": "Dentífrico",
+        "cantidad": 740
       },
       {
-        "nombre": "Dentífrico",
-        "cantidad": 662
+        "nombre": "Galletitas Dulces",
+        "cantidad": 701
       },
       {
         "nombre": "Arroz Blanco 1kg",
@@ -131,7 +131,7 @@
         "cantidad": 261
       },
       {
-        "nombre": "Cerveza Rubia 4",
+        "nombre": "Cerveza Rubia",
         "cantidad": 216
       },
       {
@@ -139,12 +139,8 @@
         "cantidad": 118
       },
       {
-        "nombre": "Papel Higiénico <",
+        "nombre": "Papel Higiénico",
         "cantidad": 90
-      },
-      {
-        "nombre": "Dentífico",
-        "cantidad": 78
       }
     ]
   },
