@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 180,
-    "ingresos": 10462.09,
-    "productos": 550
+    "ventas": 360,
+    "ingresos": 20924.18,
+    "productos": 1100
   },
   "mediosPago": {
     "etiquetas": [
@@ -23,123 +23,127 @@
     ],
     "metricas": [
       {
-        "ventas": 54,
-        "ingresos": 3852.51
+        "ventas": 108,
+        "ingresos": 7705.02
       },
       {
-        "ventas": 55,
-        "ingresos": 3414.14
+        "ventas": 110,
+        "ingresos": 6828.28
       },
       {
-        "ventas": 47,
-        "ingresos": 3519.57
+        "ventas": 94,
+        "ingresos": 7039.14
       },
       {
-        "ventas": 38,
-        "ingresos": 2556.25
+        "ventas": 76,
+        "ingresos": 5112.5
       }
     ],
     "graficos": {
       "ventas": [
-        54,
-        55,
-        47,
-        38
+        108,
+        110,
+        94,
+        76
       ],
       "productos": [
-        111,
-        146,
-        148,
-        127
+        222,
+        292,
+        296,
+        254
       ],
       "ingresos": [
-        3852.51,
-        3414.14,
-        3519.57,
-        2556.25
+        7705.02,
+        6828.28,
+        7039.14,
+        5112.5
       ]
     }
   },
   "productos": {
     "destacado": {
       "nombre": "Gaseosa Cola 1.5L",
-      "cantidad": 435
+      "cantidad": 870
     },
     "listaCompleta": [
       {
         "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 435
+        "cantidad": 870
       },
       {
         "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 369
+        "cantidad": 738
       },
       {
         "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 339
+        "cantidad": 678
       },
       {
         "nombre": "Fideos Tallarines",
-        "cantidad": 294
+        "cantidad": 588
       },
       {
         "nombre": "Atún en lata",
-        "cantidad": 250
+        "cantidad": 500
       },
       {
         "nombre": "Pan Integral",
-        "cantidad": 219
+        "cantidad": 438
       },
       {
         "nombre": "Galletitas Dulces",
-        "cantidad": 162
+        "cantidad": 324
       },
       {
         "nombre": "Arroz Blanco 1kg",
-        "cantidad": 139
+        "cantidad": 278
       },
       {
         "nombre": "Papel Higiénico 4u",
-        "cantidad": 127
+        "cantidad": 254
       },
       {
         "nombre": "Yerba Mate 500g",
-        "cantidad": 107
+        "cantidad": 214
       },
       {
         "nombre": "Leche Entera 1L",
-        "cantidad": 91
+        "cantidad": 182
       },
       {
         "nombre": "Queso Crema",
-        "cantidad": 83
+        "cantidad": 166
       },
       {
         "nombre": "Dentífrico",
-        "cantidad": 76
+        "cantidad": 152
       },
       {
         "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 55
+        "cantidad": 110
       }
     ]
   },
   "resumenSemana": {
-    "ventas": 180,
-    "ingresos": 10462.09,
-    "productos": 550
+    "ventas": 360,
+    "ingresos": 20924.18,
+    "productos": 1100
   },
   "semana": {
     "categorias": [
-      "01/01"
+      "01/01",
+      "14/04"
     ],
     "ingresos": [
+      10462.09,
       10462.09
     ],
     "productos": [
+      550,
       550
     ],
     "ventas": [
+      180,
       180
     ]
   }
