@@ -1,0 +1,34 @@
+name: Generar JSONs del Dashboard
+
+on:
+  push:
+    paths:
+      - 'days/*.json' # Solo se ejecutará cuando agregues o modifiques archivos en la carpeta days
+      - 'app.py'
+
+jobs:
+  procesar-datos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necesario para que el bot pueda guardar los nuevos JSON
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Ejecutar script de consolidación
+        run: python app.py
+
+      - name: Guardar los nuevos JSON generados
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add datos_day.json datos_7_day.json datos_month.json
+          # El '|| exit 0' evita que el proceso falle si no hubo cambios reales en los datos
+          git commit -m "🤖 Auto-update: JSONs actualizados" || exit 0
+          git push
