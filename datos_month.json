@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 6275,
-    "ingresos": 409264.04,
-    "productos": 16668
+    "ventas": 6010,
+    "ingresos": 390556.87,
+    "productos": 16006
   },
   "mediosPago": {
     "etiquetas": [
@@ -23,115 +23,114 @@
     ],
     "metricas": [
       {
-        "ventas": 1601,
-        "ingresos": 106244.7
+        "ventas": 1522,
+        "ingresos": 100571.06
       },
       {
-        "ventas": 1579,
-        "ingresos": 102587.48
+        "ventas": 1521,
+        "ingresos": 98297.82
       },
       {
-        "ventas": 1591,
-        "ingresos": 103293.95
+        "ventas": 1539,
+        "ingresos": 99806.6
       },
       {
-        "ventas": 1580,
-        "ingresos": 100582.8
+        "ventas": 1513,
+        "ingresos": 95691.37
       }
     ],
     "graficos": {
       "ventas": [
-        1601,
-        1579,
-        1591,
-        1580
+        1522,
+        1521,
+        1539,
+        1513
       ],
       "productos": [
-        4349,
-        4259,
-        4234,
-        4572
+        4174,
+        4083,
+        4062,
+        4377
       ],
       "ingresos": [
-        106244.7,
-        102587.48,
-        103293.95,
-        100582.8
+        100571.06,
+        98297.82,
+        99806.6,
+        95691.37
       ]
     }
   },
   "productos": {
     "destacado": {
       "nombre": "Atún en lata",
-      "cantidad": 6737
+      "cantidad": 6533
     },
     "listaCompleta": [
       {
         "nombre": "Atún en lata",
-        "cantidad": 6737
+        "cantidad": 6533
       },
       {
         "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 6083
+        "cantidad": 6002
       },
       {
         "nombre": "Galletitas Dulces",
-        "cantidad": 5702
+        "cantidad": 5610
       },
       {
         "nombre": "Fideos Tallarines",
-        "cantidad": 5564
+        "cantidad": 5511
       },
       {
         "nombre": "Queso Crema",
-        "cantidad": 5291
-      },
-      {
-        "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 5206
+        "cantidad": 5102
       },
       {
         "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 5002
+        "cantidad": 4963
+      },
+      {
+        "nombre": "Jabón en Polvo 3kg",
+        "cantidad": 4851
       },
       {
         "nombre": "Papel Higiénico 4u",
-        "cantidad": 4769
-      },
-      {
-        "nombre": "Arroz Blanco 1kg",
-        "cantidad": 4675
+        "cantidad": 4338
       },
       {
         "nombre": "Pan Integral",
-        "cantidad": 4385
+        "cantidad": 4316
       },
       {
-        "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 4195
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 4215
       },
       {
         "nombre": "Dentífrico",
-        "cantidad": 4062
+        "cantidad": 3951
+      },
+      {
+        "nombre": "Gaseosa Cola 1.5L",
+        "cantidad": 3941
       },
       {
         "nombre": "Leche Entera 1L",
-        "cantidad": 4003
+        "cantidad": 3868
       },
       {
         "nombre": "Yerba Mate 500g",
-        "cantidad": 3426
+        "cantidad": 3256
       }
     ]
   },
   "resumenMes": {
-    "ventas": 6275,
-    "ingresos": 409264.04,
-    "productos": 16668
+    "ventas": 6010,
+    "ingresos": 390556.87,
+    "productos": 16006
   },
   "mes": {
     "categorias": [
-      "02/01",
       "03/01",
       "04/01",
       "05/01",
@@ -163,7 +162,6 @@
       "31/01"
     ],
     "ingresos": [
-      18707.17,
       17678.95,
       8926.09,
       17422.4,
@@ -195,7 +193,6 @@
       9936.07
     ],
     "productos": [
-      662,
       680,
       321,
       720,
@@ -227,7 +224,6 @@
       411
     ],
     "ventas": [
-      265,
       242,
       129,
       242,
