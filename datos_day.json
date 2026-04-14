@@ -1,68 +1,22 @@
 {
   "resumenDia": {
-    "ventas": 174,
-    "ingresos": 9936.07,
-    "productos": 411
+    "ventas": 154,
+    "ingresos": 11035.51,
+    "productos": 385
   },
   "graficoEvolucion": {
-    "categorias": [
-      "00:00",
-      "03:00",
-      "06:00",
-      "09:00",
-      "12:00",
-      "15:00",
-      "18:00",
-      "21:00",
-      "23:59"
-    ],
-    "ingresos": [
-      527.06,
-      250.13,
-      207.69,
-      3330.3,
-      4278.02,
-      5352.68,
-      6986.0,
-      8860.61,
-      3107.15
-    ],
-    "productos": [
-      32,
-      10,
-      11,
-      150,
-      208,
-      173,
-      328,
-      271,
-      125
-    ],
-    "ventas": [
-      10,
-      4,
-      3,
-      43,
-      77,
-      68,
-      91,
-      121,
-      55
-    ]
+    "categorias": [],
+    "ingresos": [],
+    "productos": [],
+    "ventas": []
   },
   "totalesPeriodo": {
-    "ventas": 1381,
-    "ingresos": 64537.06
+    "ventas": 154,
+    "ingresos": 11035.51
   },
   "mediosPago": {
-    "etiquetas": [
-      "Posnet (Tarjeta/QR)",
-      "Efectivo"
-    ],
-    "valores": [
-      56,
-      51
-    ]
+    "etiquetas": [],
+    "valores": []
   },
   "cajas": {
     "nombres": [
@@ -73,104 +27,104 @@
     ],
     "metricas": [
       {
-        "ventas": 35,
-        "ingresos": 1972.95
+        "ventas": 37,
+        "ingresos": 2303.92
       },
       {
-        "ventas": 27,
-        "ingresos": 1902.23
+        "ventas": 46,
+        "ingresos": 3010.34
       },
       {
-        "ventas": 29,
-        "ingresos": 1944.27
+        "ventas": 23,
+        "ingresos": 1363.02
       },
       {
         "ventas": 41,
-        "ingresos": 2363.04
+        "ingresos": 2784.82
       }
     ],
     "graficos": {
       "ventas": [
-        35,
-        27,
-        29,
+        37,
+        46,
+        23,
         41
       ],
       "productos": [
-        113,
-        74,
-        99,
-        107
+        98,
+        158,
+        50,
+        131
       ],
       "ingresos": [
-        1972.95,
-        1902.23,
-        1944.27,
-        2363.04
+        2303.92,
+        3010.34,
+        1363.02,
+        2784.82
       ]
     }
   },
   "productos": {
     "destacado": {
-      "nombre": "Papel Higiénico 4u",
-      "cantidad": 401
+      "nombre": "Atún en lata",
+      "cantidad": 414
     },
     "listaCompleta": [
       {
-        "nombre": "Papel Higiénico 4u",
-        "cantidad": 401
-      },
-      {
-        "nombre": "Yerba Mate 500g",
-        "cantidad": 303
-      },
-      {
-        "nombre": "Queso Crema",
-        "cantidad": 281
-      },
-      {
-        "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 234
-      },
-      {
-        "nombre": "Dentífrico",
-        "cantidad": 167
-      },
-      {
-        "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 148
-      },
-      {
-        "nombre": "Leche Entera 1L",
-        "cantidad": 132
-      },
-      {
-        "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 97
-      },
-      {
-        "nombre": "Arroz Blanco 1kg",
-        "cantidad": 81
-      },
-      {
-        "nombre": "Pan Integral",
-        "cantidad": 63
-      },
-      {
-        "nombre": "Fideos Tallarines",
-        "cantidad": 49
+        "nombre": "Atún en lata",
+        "cantidad": 414
       },
       {
         "nombre": "Galletitas Dulces",
-        "cantidad": 45
+        "cantidad": 343
       },
       {
-        "nombre": "Atún en lata",
-        "cantidad": 33
+        "nombre": "Aceite de Girasol",
+        "cantidad": 317
       },
       {
-        "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 25
+        "nombre": "Jabón en Polvo",
+        "cantidad": 261
+      },
+      {
+        "nombre": "Fideos Tallarines",
+        "cantidad": 235
+      },
+      {
+        "nombre": "Cerveza Rubia",
+        "cantidad": 216
+      },
+      {
+        "nombre": "Queso Crema",
+        "cantidad": 198
+      },
+      {
+        "nombre": "Yerba Mate 500g",
+        "cantidad": 139
+      },
+      {
+        "nombre": "Gaseosa Cola 1.",
+        "cantidad": 118
+      },
+      {
+        "nombre": "Papel Higiénico",
+        "cantidad": 90
+      },
+      {
+        "nombre": "Dentífrico",
+        "cantidad": 78
+      },
+      {
+        "nombre": "Pan Integral",
+        "cantidad": 69
+      },
+      {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 64
+      },
+      {
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 55
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 1357,
-    "ingresos": 79244.07,
-    "productos": 3388
+    "ventas": 1304,
+    "ingresos": 78459.17,
+    "productos": 3325
   },
   "mediosPago": {
     "etiquetas": [
@@ -10,8 +10,8 @@
       "Efectivo"
     ],
     "valores": [
-      57,
-      43
+      56,
+      44
     ]
   },
   "cajas": {
@@ -23,148 +23,168 @@
     ],
     "metricas": [
       {
-        "ventas": 322,
-        "ingresos": 20294.19
+        "ventas": 302,
+        "ingresos": 19208.76
       },
       {
-        "ventas": 325,
-        "ingresos": 20305.1
+        "ventas": 333,
+        "ingresos": 21108.85
       },
       {
-        "ventas": 319,
-        "ingresos": 19664.42
+        "ventas": 301,
+        "ingresos": 18307.51
       },
       {
-        "ventas": 374,
-        "ingresos": 23092.11
+        "ventas": 359,
+        "ingresos": 22193.55
       }
     ],
     "graficos": {
       "ventas": [
-        322,
-        325,
-        319,
-        374
+        302,
+        333,
+        301,
+        359
       ],
       "productos": [
-        927,
-        843,
-        968,
-        1087
+        858,
+        912,
+        898,
+        1066
       ],
       "ingresos": [
-        20294.19,
-        20305.1,
-        19664.42,
-        23092.11
+        19208.76,
+        21108.85,
+        18307.51,
+        22193.55
       ]
     }
   },
   "productos": {
     "destacado": {
-      "nombre": "Queso Crema",
-      "cantidad": 1811
+      "nombre": "Atún en lata",
+      "cantidad": 1990
     },
     "listaCompleta": [
       {
-        "nombre": "Queso Crema",
-        "cantidad": 1811
-      },
-      {
         "nombre": "Atún en lata",
-        "cantidad": 1655
+        "cantidad": 1990
       },
       {
         "nombre": "Fideos Tallarines",
-        "cantidad": 1547
+        "cantidad": 1694
       },
       {
-        "nombre": "Gaseosa Cola 1.5L",
-        "cantidad": 1198
-      },
-      {
-        "nombre": "Cerveza Rubia 473ml",
-        "cantidad": 1171
-      },
-      {
-        "nombre": "Dentífrico",
-        "cantidad": 1122
-      },
-      {
-        "nombre": "Jabón en Polvo 3kg",
-        "cantidad": 1072
-      },
-      {
-        "nombre": "Aceite de Girasol 1.5L",
-        "cantidad": 1048
+        "nombre": "Queso Crema",
+        "cantidad": 1636
       },
       {
         "nombre": "Pan Integral",
-        "cantidad": 1030
+        "cantidad": 1053
+      },
+      {
+        "nombre": "Cerveza Rubia 473ml",
+        "cantidad": 1013
+      },
+      {
+        "nombre": "Aceite de Girasol 1.5L",
+        "cantidad": 930
       },
       {
         "nombre": "Yerba Mate 500g",
-        "cantidad": 974
+        "cantidad": 914
       },
       {
         "nombre": "Papel Higiénico 4u",
-        "cantidad": 936
+        "cantidad": 903
+      },
+      {
+        "nombre": "Gaseosa Cola 1.5L",
+        "cantidad": 900
       },
       {
         "nombre": "Leche Entera 1L",
-        "cantidad": 861
+        "cantidad": 859
       },
       {
-        "nombre": "Arroz Blanco 1kg",
-        "cantidad": 749
+        "nombre": "Jabón en Polvo 3kg",
+        "cantidad": 847
+      },
+      {
+        "nombre": "Dentífrico",
+        "cantidad": 740
       },
       {
         "nombre": "Galletitas Dulces",
-        "cantidad": 387
+        "cantidad": 701
+      },
+      {
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 539
+      },
+      {
+        "nombre": "Aceite de Girasol",
+        "cantidad": 317
+      },
+      {
+        "nombre": "Jabón en Polvo",
+        "cantidad": 261
+      },
+      {
+        "nombre": "Cerveza Rubia",
+        "cantidad": 216
+      },
+      {
+        "nombre": "Gaseosa Cola 1.",
+        "cantidad": 118
+      },
+      {
+        "nombre": "Papel Higiénico",
+        "cantidad": 90
       }
     ]
   },
   "resumenSemana": {
-    "ventas": 1357,
-    "ingresos": 79244.07,
-    "productos": 3388
+    "ventas": 1304,
+    "ingresos": 78459.17,
+    "productos": 3325
   },
   "semana": {
     "categorias": [
-      "25/01",
       "26/01",
       "27/01",
       "28/01",
       "29/01",
       "30/01",
-      "31/01"
+      "31/01",
+      "13/04"
     ],
     "ingresos": [
-      11820.41,
       13907.16,
       8023.32,
       11023.3,
       11115.46,
       13418.35,
-      9936.07
+      9936.07,
+      11035.51
     ],
     "productos": [
-      448,
       497,
       366,
       544,
       647,
       475,
-      411
+      411,
+      385
     ],
     "ventas": [
-      207,
       241,
       140,
       172,
       199,
       224,
-      174
+      174,
+      154
     ]
   }
 }
