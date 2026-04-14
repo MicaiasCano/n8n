@@ -1,68 +1,22 @@
 {
   "resumenDia": {
-    "ventas": 0,
-    "ingresos": 0.0,
-    "productos": 0
+    "ventas": 154,
+    "ingresos": 11035.51,
+    "productos": 385
   },
   "graficoEvolucion": {
-    "categorias": [
-      "00:00",
-      "03:00",
-      "06:00",
-      "09:00",
-      "12:00",
-      "15:00",
-      "18:00",
-      "21:00",
-      "23:59"
-    ],
-    "ingresos": [
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
-    "productos": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "ventas": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ]
+    "categorias": [],
+    "ingresos": [],
+    "productos": [],
+    "ventas": []
   },
   "totalesPeriodo": {
-    "ventas": 0,
-    "ingresos": 0.0
+    "ventas": 154,
+    "ingresos": 11035.51
   },
   "mediosPago": {
-    "etiquetas": [
-      "Posnet (Tarjeta/QR)",
-      "Efectivo"
-    ],
-    "valores": [
-      0,
-      0
-    ]
+    "etiquetas": [],
+    "valores": []
   },
   "cajas": {
     "nombres": [
@@ -73,48 +27,109 @@
     ],
     "metricas": [
       {
-        "ventas": 0,
-        "ingresos": 0.0
+        "nombre": "Caja 1",
+        "ventas": 37,
+        "ingresos": 2303.92
       },
       {
-        "ventas": 0,
-        "ingresos": 0.0
+        "nombre": "Caja 2",
+        "ventas": 46,
+        "ingresos": 3010.34
       },
       {
-        "ventas": 0,
-        "ingresos": 0.0
+        "nombre": "Caja 3",
+        "ventas": 23,
+        "ingresos": 1363.02
       },
       {
-        "ventas": 0,
-        "ingresos": 0.0
+        "nombre": "Caja 4",
+        "ventas": 41,
+        "ingresos": 2784.82
       }
     ],
     "graficos": {
       "ventas": [
-        0,
-        0,
-        0,
-        0
+        37,
+        46,
+        23,
+        41
       ],
       "productos": [
-        0,
-        0,
-        0,
-        0
+        98,
+        158,
+        50,
+        131
       ],
       "ingresos": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        2303.92,
+        3010.34,
+        1363.02,
+        2784.82
       ]
     }
   },
   "productos": {
     "destacado": {
-      "nombre": "Sin datos",
-      "cantidad": 0
+      "nombre": "Galletitas Dulces",
+      "cantidad": 343
     },
-    "listaCompleta": []
+    "listaCompleta": [
+      {
+        "nombre": "Galletitas Dulces",
+        "cantidad": 343
+      },
+      {
+        "nombre": "Aceite de Girasol",
+        "cantidad": 317
+      },
+      {
+        "nombre": "Jabón en Polvo",
+        "cantidad": 261
+      },
+      {
+        "nombre": "Fideos Tallarines",
+        "cantidad": 235
+      },
+      {
+        "nombre": "Cerveza Rubia 4",
+        "cantidad": 216
+      },
+      {
+        "nombre": "Queso Crema",
+        "cantidad": 198
+      },
+      {
+        "nombre": "Yerba Mate 500g",
+        "cantidad": 139
+      },
+      {
+        "nombre": "Gaseosa Cola 1.",
+        "cantidad": 118
+      },
+      {
+        "nombre": "Papel Higiénico <",
+        "cantidad": 90
+      },
+      {
+        "nombre": "Dentífico",
+        "cantidad": 78
+      },
+      {
+        "nombre": "Pan Integral",
+        "cantidad": 69
+      },
+      {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 64
+      },
+      {
+        "nombre": "Arroz Blanco 1kg",
+        "cantidad": 55
+      },
+      {
+        "nombre": "Atún en lata",
+        "cantidad": 414
+      }
+    ]
   }
 }

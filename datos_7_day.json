@@ -1,8 +1,8 @@
 {
   "totalesPeriodo": {
-    "ventas": 1150,
-    "ingresos": 67423.66,
-    "productos": 2940
+    "ventas": 1304,
+    "ingresos": 78459.17,
+    "productos": 3325
   },
   "mediosPago": {
     "etiquetas": [
@@ -23,72 +23,76 @@
     ],
     "metricas": [
       {
-        "ventas": 265,
-        "ingresos": 16904.84
+        "ventas": 302,
+        "ingresos": 19208.76
       },
       {
-        "ventas": 287,
-        "ingresos": 18098.51
+        "ventas": 333,
+        "ingresos": 21108.85
       },
       {
-        "ventas": 278,
-        "ingresos": 16944.49
+        "ventas": 301,
+        "ingresos": 18307.51
       },
       {
-        "ventas": 318,
-        "ingresos": 19408.73
+        "ventas": 359,
+        "ingresos": 22193.55
       }
     ],
     "graficos": {
       "ventas": [
-        265,
-        287,
-        278,
-        318
+        302,
+        333,
+        301,
+        359
       ],
       "productos": [
-        760,
-        754,
-        848,
-        935
+        858,
+        912,
+        898,
+        1066
       ],
       "ingresos": [
-        16904.84,
-        18098.51,
-        16944.49,
-        19408.73
+        19208.76,
+        21108.85,
+        18307.51,
+        22193.55
       ]
     }
   },
   "productos": {
     "destacado": {
       "nombre": "Atún en lata",
-      "cantidad": 1576
+      "cantidad": 1990
     },
     "listaCompleta": [
       {
         "nombre": "Atún en lata",
-        "cantidad": 1576
+        "cantidad": 1990
       },
       {
         "nombre": "Fideos Tallarines",
-        "cantidad": 1459
+        "cantidad": 1694
       },
       {
         "nombre": "Queso Crema",
-        "cantidad": 1438
+        "cantidad": 1636
+      },
+      {
+        "nombre": "Pan Integral",
+        "cantidad": 1053
       },
       {
         "nombre": "Cerveza Rubia 473ml",
         "cantidad": 1013
       },
       {
-        "nombre": "Pan Integral",
-        "cantidad": 984
-      },
-      {
         "nombre": "Aceite de Girasol 1.5L",
         "cantidad": 930
+      },
+      {
+        "nombre": "Yerba Mate 500g",
+        "cantidad": 914
       },
       {
         "nombre": "Papel Higiénico 4u",
@@ -99,16 +103,16 @@
         "cantidad": 900
       },
       {
+        "nombre": "Leche Entera 1L",
+        "cantidad": 859
+      },
+      {
         "nombre": "Jabón en Polvo 3kg",
         "cantidad": 847
       },
       {
-        "nombre": "Leche Entera 1L",
-        "cantidad": 795
-      },
-      {
-        "nombre": "Yerba Mate 500g",
-        "cantidad": 775
+        "nombre": "Galletitas Dulces",
+        "cantidad": 701
       },
       {
         "nombre": "Dentífrico",
@@ -116,18 +120,38 @@
       },
       {
         "nombre": "Arroz Blanco 1kg",
-        "cantidad": 484
+        "cantidad": 539
       },
       {
-        "nombre": "Galletitas Dulces",
-        "cantidad": 358
+        "nombre": "Aceite de Girasol",
+        "cantidad": 317
+      },
+      {
+        "nombre": "Jabón en Polvo",
+        "cantidad": 261
+      },
+      {
+        "nombre": "Cerveza Rubia 4",
+        "cantidad": 216
+      },
+      {
+        "nombre": "Gaseosa Cola 1.",
+        "cantidad": 118
+      },
+      {
+        "nombre": "Papel Higiénico <",
+        "cantidad": 90
+      },
+      {
+        "nombre": "Dentífico",
+        "cantidad": 78
       }
     ]
   },
   "resumenSemana": {
-    "ventas": 1150,
-    "ingresos": 67423.66,
-    "productos": 2940
+    "ventas": 1304,
+    "ingresos": 78459.17,
+    "productos": 3325
   },
   "semana": {
     "categorias": [
@@ -136,7 +160,8 @@
       "28/01",
       "29/01",
       "30/01",
-      "31/01"
+      "31/01",
+      "13/04"
     ],
     "ingresos": [
       13907.16,
@@ -144,7 +169,8 @@
       11023.3,
       11115.46,
       13418.35,
-      9936.07
+      9936.07,
+      11035.51
     ],
     "productos": [
       497,
@@ -152,7 +178,8 @@
       544,
       647,
       475,
-      411
+      411,
+      385
     ],
     "ventas": [
       241,
@@ -160,7 +187,8 @@
       172,
       199,
       224,
-      174
+      174,
+      154
     ]
   }
 }
